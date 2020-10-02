@@ -1,6 +1,6 @@
 # Patch Image Generator 
 
-A basic program to generate random patches ( images and masks) for deep learning applications like semantic segmentation.
+A basic program to generate random patches (images and masks) for deep learning applications like semantic segmentation.
 
 Provide the following information in the main program:
 
