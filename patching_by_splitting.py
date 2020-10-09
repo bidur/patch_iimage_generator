@@ -88,6 +88,7 @@ def get_tiled_patches(input_image_path,input_mask_path, patch_img , patch_mask, 
 			srcwin_option =		"   -srcwin "  + str( i)+ ", " + str( j) + ", " + str(tile_size_x) + ", " + str(tile_size_y)
 			save_patch_image(input_image_path , str(patch_img)  + str(image_sn)+ "_" +str(i) + "-" + str(j) + img_ext  , srcwin_option)
 			save_patch_ann(input_mask_path   , str(patch_mask)  + str(image_sn)+ "_" +str(i)+ "-" +str(j) + mask_ext  , srcwin_option)
+			image_sn += 1
 
 	return i
 ###################################################
